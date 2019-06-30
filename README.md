@@ -7,6 +7,5 @@ Emulate LCD displays in the terminal.
  Let s be the number of horizontal segments, then each LCD digit will
  occupy s + 2 positions and 2s + 3 vertical rows.
  There must be one column of blanks between two digits.
- This file handles the command line interface.
 
 Sample input line:   lcd.py 2 12345
