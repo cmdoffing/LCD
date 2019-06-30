@@ -1,5 +1,6 @@
 # LCD
-Emulate LCD display in the terminal
+
+Emulate LCD displays in the terminal.
 
  This program displays LCD digits, given a command line size 
  parameter (s = param 1) and a number to display (param 2).
