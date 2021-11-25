@@ -4,10 +4,10 @@ class LcdNumber():
 
     def __init__(self, scale, numString):
         self.lcdString = numString
-        self.scale  = scale
-        self.digits = list( numString )
+        self.scale     = scale
+        self.digits    = list( numString )
         self.numDigits = len( self.digits )
-        self.display = []
+        self.display   = []
         for digit in self.digits:
             self.display.append( LcdDigit(digit, self.scale).template )
 
